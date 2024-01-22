@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guess</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <nav>
+        <button class="Again">
+          Again <img width="30px" src="./image/restart.svg" alt="play again" />
+        </button>
+        <p class="nav-p">
+          <img width="30px" src="./image/information.svg" alt="info" />
+          Between 1 and 20
+        </p>
+      </nav>
+      <section>
+        <h1 class="Guess-my-number">Guess My Number</h1>
+        <p class="q">?</p>
+      </section>
+      <div class="game">
+        <div class="left">
+          <input class="user-input" type="number" />
+          <button class="Check">Check</button>
+        </div>
+        <div class="right">
+          <div class="top">
+            <h2 class="message">Guess My Number</h2>
+          </div>
+          <div class="buttom">
+            <div class="first">
+              <img
+                width="30px"
+                height="30px"
+                src="./image/medal.svg"
+                alt="score"
+              />
+              <p>Score :</p>
+              <p class="score">20</p>
+            </div>
+            <div class="second">
+              <img
+                width="30px"
+                height="30px"
+                src="./image/seal.svg"
+                alt="high score"
+              />
+              <p>HighScore :</p>
+              <p class="high-score">0</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>

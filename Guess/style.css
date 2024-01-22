@@ -1,0 +1,135 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  background-color: #0b131f;
+}
+main {
+  padding-top: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+  color: white;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+.nav-p {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 10px;
+  background-color: #1d4f9a;
+  font-size: large;
+  padding: 0.4rem 1rem;
+  border-radius: 10px;
+}
+.Again {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 10px;
+  background-color: #1d4f9a;
+  font-size: large;
+  border-radius: 10px;
+  color: white;
+  padding: 0.4rem 1rem;
+  border: none;
+  outline: none;
+}
+section {
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  gap: 2rem;
+}
+h1 {
+  font-size: 4rem;
+}
+.q {
+  width: 400px;
+  background-color: #5f95e6;
+  border-radius: 10px;
+  padding: 25px 80px;
+  font-size: 4rem;
+}
+.game {
+  margin-top: 6.5rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.left {
+  height: 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+input {
+  outline: none;
+  background-color: #5f95e6;
+  text-align: center;
+  padding: 1rem 1rem;
+  border: none;
+  border-radius: 10px;
+  color: white;
+}
+.Check {
+  background-color: #1d4f9a;
+  font-size: large;
+  border-radius: 10px;
+  color: white;
+  padding: 0.8rem 3rem;
+  border: none;
+  outline: none;
+}
+.first {
+  margin-top: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 0.5rem;
+}
+.second {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 0.5rem;
+}
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+/* small Device */
+@media screen and (min-width: 300px) {
+  main {
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .game {
+    margin-top: 2.5rem;
+    gap: 1rem;
+  }
+  .q {
+    width: 200px;
+    background-color: #5f95e6;
+    border-radius: 10px;
+    padding: 15px 40px;
+    font-size: 2rem;
+  }
+}
